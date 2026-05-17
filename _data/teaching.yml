@@ -1,0 +1,24 @@
+# Teaching - organized by school
+# Fields:
+#   - school: School name
+#   - logo: Path to school logo (optional)
+#   - experiences: List of teaching experiences
+#     - title: Role/position title
+#     - items: List of specific items (col1, col2 [, col3], optional comment)
+
+- school: "@ Cornell University | Ithaca, NY, USA"
+  experiences:
+    - title: "Teaching Assistant"
+      items:
+        - col1: "Aug – Dec 2022"
+          col2: "ENGRD 2700 — Basic Engineering Probability and Statistics"
+        - col1: "Jan – May 2022"
+          col2: "ORIE 3310 — Optimization II"
+          comment: |
+            Supported labs introducing the Python Gurobi API and created assignments. Average TA Rating: 4.8/5.0.
+        - col1: "Aug – Dec 2022"
+          col2: "CS 2800 — Discrete Structures"
+        - col1: "Jan 2021 – May 2022"
+          col2: "CS 1110 — Introduction to Computing Using Python"
+          comment: |
+            Helped students in class and office hours learn basic and object-oriented programming. Average TA Rating: 5.0/5.0.

@@ -1,0 +1,18 @@
+# Academic service - organized by category
+# Fields:
+#   - title: Category title
+#   - items: List of specific items (col1, col2 [, col3], optional comment)
+
+- title: "Student Organization Leadership"
+  items:
+    - col1: "2026 – Present"
+      col2: "President, Georgia Tech ISyE INFORMS Chapter"
+    - col1: "2025 – 2026"
+      col2: "Treasurer, Georgia Tech ISyE INFORMS Chapter"
+
+- title: "University Service"
+  items:
+    - col1: "2025 – Present"
+      col2: "Bee Well Ambassador, H. Milton Stewart School of ISyE, Georgia Tech"
+      comment: |
+        Peer-led initiative supporting graduate-student mental health and well-being in ISyE.

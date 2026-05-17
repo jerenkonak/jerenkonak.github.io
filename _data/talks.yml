@@ -1,0 +1,7 @@
+# Talks (newest first)
+# Fields: date, type (Talk/Keynote/Poster/Tutorial/Presentation), venue, venue_url, title, slides, video
+
+- date: "2026"
+  type: "Presentation"
+  venue: "INFORMS Annual Meeting"
+  title: "Improving Linehaul Efficiency with Hybrid Load Consolidation Model"

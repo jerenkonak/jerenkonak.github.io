@@ -1,0 +1,38 @@
+# Awards and honors (newest first)
+# Fields:
+#   - title: Full award title with markdown formatting (use *text* for italic)
+#   - year: Year
+#   - type: "paper" or "personal"
+#   - comment: Optional additional note (shown as a bullet point below)
+
+- title: |
+    **Phillip J. and Delores A. Scott Graduate Student Health and Wellness Award**, ISyE, Georgia Tech
+  year: 2026
+  type: personal
+
+- title: |
+    **ISyE John B. Day Presidents Fellowship**, Georgia Tech
+  year: 2025
+  type: personal
+  comment: |
+    2023–2025
+
+- title: |
+    **Omega Rho International Operations Research Honors Society**
+  year: 2022
+  type: personal
+
+- title: |
+    **Bartels Family Cornell College of Engineering Student Travel Grant**, Cornell University
+  year: 2022
+  type: personal
+
+- title: |
+    **1st Place, Anthem AI Substance Use Disorder and Whole Health of the Person Hackathon**
+  year: 2021
+  type: personal
+
+- title: |
+    **Pi Beta Phi NY Delta Scholarship Recipient**
+  year: 2021
+  type: personal

@@ -1,0 +1,28 @@
+# Site settings
+title: Jeren Konak
+description: PhD Candidate in Operations Research at Georgia Tech (ISyE).
+url: "https://jerenkonak.github.io"
+baseurl: ""
+
+# Personal info
+author:
+  name: Jeren Konak
+  email: ckonak3 at gatech dot edu
+  photo: /assets/images/headshot.jpg
+  titles:
+    - title: PhD Candidate, Operations Research
+  dept: H. Milton Stewart School of Industrial and Systems Engineering
+  school: Georgia Institute of Technology
+  location: Atlanta, GA, USA
+
+
+# Social links (leave blank or remove to hide)
+social:
+  google_scholar: ""
+  github: ""
+  linkedin: "https://www.linkedin.com/in/jerenkonak/"
+  cv: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty

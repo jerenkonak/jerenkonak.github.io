@@ -1,0 +1,19 @@
+# Publications (newest first)
+# Fields: title, authors (list), venue, year, category, keywords, colab, abstract,
+#         figure, figure_caption, award, preprint, full_paper, pdf, slides, video, code, url
+# Categories used in filter: sel (Selected), all
+
+- title: |
+    SPOT: Spatio-Temporal Pattern Mining and Optimization for Load Consolidation in Freight Transportation Networks
+  year: 2025
+  authors:
+    - S. Cheng
+    - A. Hijazi
+    - Jeren Konak
+    - A. Erera
+    - P. Van Hentenryck
+  venue: Proceedings of the IEEE International Conference on Data Mining (ICDM), 2025
+  keywords: [Freight Consolidation, Vehicle Routing, Mixed-Integer Optimization, Spatio-Temporal Pattern Mining]
+  colab: ["Georgia Tech"]
+  full_paper: "https://arxiv.org/abs/2504.09680"
+  category: [sel]
