@@ -54,6 +54,7 @@
         </div>
 
         <div class="bio">
+            <h3>About Me</h3>
             {{ site.data.about.content | markdownify }}
 
             {% if site.data.about.news and site.data.about.news.size > 0 %}
@@ -62,7 +63,7 @@
                 <ul class="news-list">
                     {% for item in site.data.about.news %}
                     <li>
-                        <span class="news-date">{{ item.date | append: "-01" | date: "%B %Y" }}</span>
+                        <span class="news-date">[{{ item.date | append: "-01" | date: "%B %Y" }}]</span>
                         {{ item.content | markdownify | remove: '<p>' | remove: '</p>' }}
                     </li>
                     {% endfor %}

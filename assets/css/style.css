@@ -313,7 +313,7 @@ nav {
 }
 
 .news-date {
-    color: var(--primary-color);
+    color: #2563eb;
     font-weight: 500;
     margin-right: 0.5rem;
 }
