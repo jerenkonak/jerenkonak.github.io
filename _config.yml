@@ -12,13 +12,15 @@ author:
   titles:
     - title: PhD Candidate, Operations Research
   dept: H. Milton Stewart School of Industrial and Systems Engineering
+  dept_url: "https://www.isye.gatech.edu/"
   school: Georgia Institute of Technology
+  school_url: "https://www.gatech.edu/"
   location: Atlanta, GA, USA
 
 
 # Social links (leave blank or remove to hide)
 social:
-  google_scholar: ""
+  google_scholar: "https://scholar.google.com/citations?hl=en&user=-U5tG9EAAAAJ&view_op=list_works&gmla=AIqSsVu_lXKCzbYI9MLHug0ZWeeHIJhFV_nqAddlMNlDWvhKIGqyLy4KAIa7Q7zRmIRv12RIDTQjtEuuNI9Q35sdPWWFUQxph-reKgMBA4-vzQqe_PIpRkvAbqXUVHWY"
   github: ""
   linkedin: "https://www.linkedin.com/in/jerenkonak/"
   cv: ""

@@ -12,8 +12,12 @@
             </p>
             {% endfor %}
             {% endif %}
-            <p class="profile-affiliation">{{ site.author.dept }}</p>
-            <p class="profile-affiliation">{{ site.author.school }}</p>
+            <p class="profile-affiliation">
+                {% if site.author.dept_url %}<a href="{{ site.author.dept_url }}" target="_blank">{{ site.author.dept }}</a>{% else %}{{ site.author.dept }}{% endif %}
+            </p>
+            <p class="profile-affiliation">
+                {% if site.author.school_url %}<a href="{{ site.author.school_url }}" target="_blank">{{ site.author.school }}</a>{% else %}{{ site.author.school }}{% endif %}
+            </p>
             <p class="profile-affiliation">
                 <i class="fas fa-location-crosshairs"></i>
                 {{ site.author.location }}
@@ -54,11 +58,11 @@
 
             {% if site.data.about.news and site.data.about.news.size > 0 %}
             <div class="news-section">
-                <h3>News</h3>
+                <h3>Latest News</h3>
                 <ul class="news-list">
                     {% for item in site.data.about.news %}
                     <li>
-                        <span class="news-date">[{{ item.date }}]</span>
+                        <span class="news-date">{{ item.date | append: "-01" | date: "%B %Y" }}</span>
                         {{ item.content | markdownify | remove: '<p>' | remove: '</p>' }}
                     </li>
                     {% endfor %}
